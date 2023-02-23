@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="skills"> <!--общий блок скилс-->
+        <div class="skills-wrapper"> <!--наша обвертка-->
+            <div class="skills-info"> <!--инфа слева-->
+                <h3 class="skills-title">My Skills</h3> <!--шапка-->
+                <div class="skills-list"> <!--вторая обвертка слева после Skills-->
+                    <div class="skills-item"> <!--блок скила со шкалой №1-->
+                        <p class="skill-name">HTML</p> <!--название скила в блоке-->
+                        <div class="skill-scale">
+                            <div class="skill-scale-inner1"></div> <!--сама шкала-->
+                        </div>
+                    </div>
+                    <div class="skills-item"> <!--блок скила со шкалой №2-->
+                        <p class="skill-name">CSS</p> <!--название скила в блоке-->
+                        <div class="skill-scale">
+                            <div class="skill-scale-inner2"></div> <!--сама шкала-->
+                        </div>
+                    </div>
+                    <div class="skills-item"> <!--блок скила со шкалой №3-->
+                        <p class="skill-name">JavaScript</p> <!--название скила в блоке-->
+                        <div class="skill-scale">
+                            <div class="skill-scale-inner3"></div> <!--сама шкала-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./images/man.png" alt="" class="skills-img"> <!--картинка справа-->
+        </div>
+    </section>
+
+    <section class="process"> <!--общий блок процесс-->
+        <div class="process-wrapper"> <!--обвертка блоков-->
+                <h3 class="process-title">How do i work?</h3>
+                <p class="process-descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"
+                    для текстов на латинице с начала XVI века.</p>
+                    <iframe 
+                            src="https://www.youtube.com/embed/OoRqKJJ_XAE" 
+                            title="YouTube video player" 
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                    </iframe>
+        </div>
+    </section>
+
+    <section class="projects"> <!--секция с общим проектом-->
+        <div class="projects-item sticker"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+        <div class="projects-item laptop"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+        <div class="projects-item sticker"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+        <div class="projects-item laptop"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+        <div class="projects-item laptop"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+        <div class="projects-item sticker"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+        <div class="projects-item laptop"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+        <div class="projects-item sticker"> <!--див с блоком картинок-->
+            <div class="projects-item-inner"> <!--див с глазом-->
+                <img src="./images/view.png" alt=""> 
+            </div>
+        </div>
+    </section>
+
+    <section class="form"> <!--вся секция форм-->
+        <div class="form-wrapper"> <!--обернули наш контейнер-->
+            <h3 class="form-tile">Хотите веб-сайт?</h3> <!--заголовок-->
+            <p class="form-descr"> <!--содержание-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, recusandae vitae? Animi, quis reprehenderit similique
+                quas qui mollitia excepturi illum.
+            </p>
+            <form >
+                <div class="form-control"> <!--блок почты и логина-->
+                    <input type="text" name="name" id="" placeholder="Ваше имя"> <!--логин, placeholder - подсказка для пользователя-->
+                    <input type="email" name="email" id="" placeholder="Ваш email"> <!--почта-->
+                </div>
+                <textarea name="message" id="" cols="30" rows="10"></textarea> <!--текст внизу,коммент-->
+                <input type="submit" value="Отправить"> <!--кнопка отправить-->
+            </form>
+        </div>
+    </section>
+</body>
+</html>
+
+
+<!--
+
+    Как подключить видео:
+    
+     1.<video src="./video.mp4"> - тег видео (Видео лежит в локальной папке)
+     2.Выгрузить видео на ютуб и подключить с ютуба
+
+
+
+    input:
+        1.text - для ввода текстовой информации
+        2.number - для ввода числа
+        3.mail - для ввода эл. почты (@)
+        4.password - для ввода пароля
+        5.file - отпровляет фаил
+        6.tel - для телефона
+        7.submit - кнопка для отправки формы
+        8.color - выберает цвет
+        9.data - выберает определенную дату
+        10.checkbox - поставить галочку, сколько угодно
+        11.radio - выберает один из вариантов
+
+    input - строчный элемент
+        Строчные(a, textarea, input, buttom, span)
+        1. высота и ширина определяется контентом, который заполняет строчный 
+           элемент
+        2. выстраиваются в строчку
+
+
+    form - интерактивный компонент веб-приложения\сайта
+    с помощью form мы взаимодействуем с приложением
+    Форма оборачивает элементы ввода информации - инпуты
+    Основные элементы формы - input, textare, select
+
+    input - тег для ввода различной информации в приложении
+
+
+-->
