@@ -1,0 +1,112 @@
+   0 mkdir /home/animals
+   1 cd /home/animals
+   2 mkdir/home/animals/dogs
+   3 mkdir /dogs
+   4 mkdir /cats
+   5 mkdir /fish
+   6 tree /home
+   7 ls
+   8 tree /home
+   9 ls
+  10 mkdir dogs
+  11 ls
+  12 mkdir cats
+  13 mkdir fish
+  14 ls
+  15 open cats
+  16 touch garfield
+  17 ls
+  18 open cats
+  19 ls
+  20 open dogs
+  21 touch pluto
+  22 open fish
+  23 touch nemo
+  24 open animals
+  25 ls
+  26 tree /home
+  27 mv /home/animals/garfield.txt
+  28 -f
+  29 tree /home
+  30 cd /home/animals
+  31 mv /nemo.txt
+  32 ls
+  33 mv nemo nemo.txt
+  34 ls
+  35 mv pluto pluto.txt
+  36 mv garfield garfield.txt
+  37 ls
+  38 cp garfield.txt /home/animals/cats
+  39 cp nemo.txt /home/animals/fish
+  40 ca pluto.txt /home/animals/dogs
+  41 cp pluto.txt /home/animals/dogs
+  42 ls
+  43 tree /home
+  44 rm garfield.txt
+  45 rm nemo.txt
+  46 rm pluto.txt
+  47 tree /home
+  48 cd ../
+  49 ls
+  50 cd /tmp
+  51 touch adam.txt
+  52 ls
+  53 cd ../
+  54 mkdir humans
+  55 ls
+  56 cd tmp
+  57 cp adam.txt /home/humans
+  58 touch evA.txt
+  59 cp evA.txt /home/humans
+  60 cd ../
+  61 cd humans
+  62 cp evA /home/opt
+  63 cp evA.txt /home/otp
+  64 ls
+  65 cd ../
+  66 tree /home
+  67 cp evA.txt opt
+  68 cd humans
+  69 touch evA.txt
+  70 ls
+  71 cp evA.txt /home/opt
+  72 cd ../
+  73 cd opt
+  74 ls
+  75 cd ../
+  76 cd humans
+  77 ls
+  78 cd ../
+  79 cp evA.txt opt
+  80 cd humans
+  81 ls
+  82 cp /home/opt
+  83 cd ../
+  84 cd opt
+  85 ls
+  86 cd ../
+  87 cd humans
+  88 ls
+  89 cd ../
+  90 cd tmp
+  91 ls
+  92 cp evA.txt /home/opt/eve.txt
+  93 ls
+  94 cp adam.txt /home/humans
+  95 cd ../
+  96 cd humans
+  97 ls
+  98 cp /home/opt/eve.txt
+  99 cd ../
+ 100 cd opt
+ 101 ls
+ 102 cd ../
+ 103 cd tmp
+ 104 ls
+ 105 mv evA.txt eva.txt
+ 106 ls
+ 107 cd ../
+ 108 history > history_22_02.txt
+ 109 export_file
+ 110 cd ../
+ 111 history > history_22_02.txt
