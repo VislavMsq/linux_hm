@@ -1,0 +1,23 @@
+   0 cd tmp
+   1 ls -l
+   2 ls -l -a
+   3 mkdir tmp
+   4 ls -l
+   5 cd tmp
+   6 vi file.txt
+   7 ls -l
+   8 ls -l -a
+   9 df -h
+  10 cat file.txt
+  11 df -h | head -n 3 >> file.txt
+  12 cat file.txt
+  13 ls -l -a
+  14 ugo
+  15 chmod g+w file.txt
+  16 ls -l -a
+  17 chmod u-r file.txt
+  18 ls -l -a
+  19 chmod o+x file.txt
+  20 ls -l -a
+  21 history
+  22 history > file.txt
